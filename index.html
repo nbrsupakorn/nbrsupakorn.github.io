@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myprofile</title>
+
+    <style>.load {position: fixed;z-index: 100;width: 100%;height: 100%;top: 0;left: 0;background: var(--bg);transition: .2s background;}</style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="load"></div>
+    <header>
+        <p><i class="fa-solid fa-hippo"></i> IKKYU <i class="fa-solid fa-hippo"></i></p>
+        <p>นายคิว</p>
+    </header>
+    <main>
+        <div class="container-1">
+            <div>
+                <div>
+                    <div>
+                        <img src="./profile.jpg" alt="">
+                        <p>kyuserenity.js</p>
+                    </div>
+                    <div class="btn">
+                        <p><i class="fa-solid fa-ellipsis"></i></p>
+                    </div>
+                </div>
+                <div id="post">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <div>
+                        <p class="btn"><i class="fa-regular fa-heart"></i></p>
+                        <p class="btn" onclick="openComment()"><i class="fa-regular fa-comment"></i></p>
+                        <p class="btn"><i class="fa-regular fa-paper-plane"></i></p>
+                    </div>
+                    <div>
+                        <p class="btn"><i class="fa-regular fa-bookmark"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="btn">
+                    <p>10:28</p>
+                    <p>สวัสดีครับผมชื่ออิกคิว ชื่อจริงชื่อศุภกร โตทองสุข.</p>
+                </div>
+                <div class="btn">
+                    <p>10:30</p>
+                    <p>เกิดที่กรุงเทพครับ เเต่ช่วงวัยเด็กก็จะโตที่จังหวัดสุโขทัยครับ พอถึงช่วงนึงก็ย้ายมาอยู่กรุงเทพถึงปัจจุบันครับ.</p>
+                </div>
+                <div class="btn">
+                    <p>10:32</p>
+                    <p>ผมมาจากโรงเรียนนวมินทราชินูทิศ เบญจมราชาลัยครับ ซึ่งตอนนี้เรียนอยู่ในระดับชั้นมัถยมศึกษาปีที่ 4 ห้องเรียนวิทยาศาสตร์-คณิตศาสตร์ (ปัญญาประดิษฐ์).</p>
+                </div>
+                <div class="btn">
+                    <p>10:35</p>
+                    <p>ความชอบของผมคือการคำนวนครับ ผมเป็นคนที่ชอบคำนวนมากๆ แล้วก็ชอบเขียนโปรแกรมด้วยครับ ผมจะใช้เวลาว่างทั้งวันไปกับการนั่งเขียนเว็บที่ตัวเองคิดขึ้นมาครับ ส่วนตอนช่วงเย็นๆผมก็จะออกไปซ้อมบาสต่อ กลับจากการซ้อมบาสเสร็จผมก็กลับมาซ้อมกีตาร์ต่อครับ งานอดิเรกเยอะมากมาย.</p>
+                </div>
+                <div class="btn">
+                    <p>10:45</p>
+                    <p>อาหารที่ชอบของผมคือ เบอร์เกอร์ พิซซ่า แร็พ สปาเก็ตตี้ ส่วนของหวานจะเป็นช็อกโกแลตครับ.</p>
+                </div>
+                <div class="btn">
+                    <p>13:00</p>
+                    <p><a href="https://www.instagram.com/kyuserenity.js" target="_blank"><i class="fa-brands fa-instagram"></i> kyuserenity.js</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container-2 btn" onclick="window.location.reload()">
+            <p><i class="fa-solid fa-repeat"></i></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
